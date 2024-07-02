@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Paramount - Your Financial Future</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/landing.css' %}">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Paramount</div>
+            <ul>
+                <li><a href="{% url 'inventory' %}">Inventory</a></li> 
+                <li><a href="{% url 'demand_tracker' %}">Demand Tracker</a></li>
+                <li><a href="{% url 'cr_tracker' %}">CR Tracker</a></li>
+                <li><a href="{% url 'login' %}" class="cta-button">Log in</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>PDS Innovation Landing Page</h1>
+                <p>Paramount: dashboard etc</p>
+                <a href="{% url 'signup' %}" class="cta-button">Sign Up</a> 
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Paramount. All rights reserved.</p>
+    </footer>
+
+    <script src="{% static 'js/landing.js' %}"></script> 
+</body>
+</html>

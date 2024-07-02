@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #fff; 
+    color: #333; /* Dark gray for better readability */
+    margin: 0;
+    line-height: 1.6; 
+}
+
+/* Header Styles */
+header {
+    background-color: #fff; 
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+/* Navigation Styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 2rem;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 2rem; 
+    color: #002878;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 2rem; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #002878;
+    font-weight: 500;
+    transition: color 0.3s ease; 
+}
+
+nav a:hover {
+    color: #26548b; 
+}
+
+/* CTA Button (Modified for Login) */
+.cta-button {
+    background-color: #002878;
+    color: #ffffff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #26548b;
+    cursor: pointer;
+}
+
+/* Hero Section Styles */
+#hero {
+    background-image: url("path/to/your/hero/image.jpg"); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px; 
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    color: #002878;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #002878; 
+    color: #ffffff;
+    padding: 2rem 0;
+    text-align: center;
+}
+/* ... (other styles) ... */
+
+/* Feature Section Styles */
+#inventory, #demand-tracker, #cr-tracker {
+    padding: 4rem 0; /* Increased padding for more breathing room */
+    text-align: center;
+    background-color: #f9f9f9; /* Subtle off-white background */
+    border-bottom: 1px solid #eee; /* Add a subtle separator */
+}
+
+.feature-section h2 {
+    color: #002878; /* Barclays blue for headings */
+    font-size: 2rem; /* Larger font size for prominence */
+    margin-bottom: 1rem;
+}
+
+.feature-section p {
+    color: #333; /* Dark gray for body text */
+    font-size: 1.1rem; /* Slightly larger font size */
+    line-height: 1.6;
+    max-width: 800px; /* Limit line width for better readability */
+    margin: 0 auto; /* Center the text */
+}
